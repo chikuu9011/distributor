@@ -10,7 +10,7 @@ import AboutPage from "./components/Pages/About";
 
 const routes = createBrowserRouter([
 {
-    path: "/home",
+    path: "/",
     element: <App />,
     children: [
         {
