@@ -8,29 +8,25 @@ import AboutPage from "./components/Pages/About";
 
 
 
-const routes = createBrowserRouter([{
-    path: "/",
-    element: <Login />,
-
-},
+const routes = createBrowserRouter([
 {
     path: "/home",
     element: <App />,
     children: [
         {
-            path: "/home/",
+            path: "/",
             element:<Home/>
         },
         {
-            path: "/home/products",
+            path: "/products",
             element:<ProductPage/>
         },
         {
-            path: "/home/contact",
+            path: "/contact",
             element:<ContactPage/>
         }
         ,{
-            path: "/home/about",
+            path: "/about",
             element:<AboutPage/>
         }
     ]
