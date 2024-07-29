@@ -19,10 +19,10 @@ const Header = () => {
                 </div>
                 <nav className={`navbar-menu ${isOpen ? 'open' : ''}`}>
                     <ul>
-                        <li><a href="/home/">Home</a></li>
-                        <li><a href="/home/products">Products</a></li>
-                        <li><a href="/home/about">About Us</a></li>
-                        <li><a href="/home/contact">Contact</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/products">Products</a></li>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/contact">Contact</a></li>
                     </ul>
                 </nav></Container>
         </header>
